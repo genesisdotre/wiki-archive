@@ -1,4 +1,4 @@
-wikify
+wiki
 ======
 
-Navigate towards "wiki" tab - that's where's the action going!
+Navigate towards "wiki" tab: https://github.com/genesisdotre/wikify/wiki
