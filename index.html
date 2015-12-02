@@ -1,12 +1,26 @@
----
-layout: default
----
-<section role="banner">
-  <img src="/img/banner.jpg" />
-</section>
- 
-<section class="content">
-  <p>
-  Welcome to John Doe Photography! Please, check out my <a href="/portfolio/">Portfolio</a> to see my work.
-  </p> 
-</section>
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>genesis.re - wiki redirect</title>
+ </head>
+ <body>
+  <noscript>
+    Please enable JavaScript for a proper redirect. 
+    For now please navigate manually <a href="https://gen.miraheze.org">gen.miraheze.org</a>
+
+    <h3>JavaScript code on this website is relatively harmless</h3>
+    <p>Using redirects untill I properly setup https:// on the subdomain, waiting for certificate at the moment</p>
+    <pre>var baseURL = "https://gen.miraheze.org/wiki/";
+var hash = location.hash.substr(1); // removing initial # (getting substring from position 1)
+location = baseURL + hash;</pre>
+
+  </noscript>
+  <script>
+    var baseURL = "https://gen.miraheze.org/wiki/";
+    var hash = location.hash.substr(1); // removing initial # (getting substring from position 1)
+    location = baseURL + hash;
+  </script>
+  
+ </body>
+</html>
